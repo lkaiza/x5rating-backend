@@ -9,4 +9,5 @@ def shop_data_to_map(row):
         "coordinates": row[2],
         "address": row[3],
         "rating": row[4]["ratingValue"],
+        "aspects": row[10]
     }
